@@ -1,8 +1,6 @@
 FROM python:3.10-slim-bullseye
 
-# RUN apt-get update 
-# RUN apt-get -y install python3-pip
-RUN pip install flask
+RUN pip install -r req.txt
 
 RUN mkdir /code
 ADD main.py /code
