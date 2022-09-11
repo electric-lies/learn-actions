@@ -1,6 +1,6 @@
 FROM python:3.10-slim-bullseye
 
-RUN pip install -r req.txt
+RUN pip install -vr req.txt
 
 RUN mkdir /code
 ADD main.py /code

@@ -20,4 +20,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: electriclies/learn-outside-methods:0.0.1
+          tags: electriclies/learn-outside-methods:0.0.2
